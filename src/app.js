@@ -1,0 +1,11 @@
+import { profile } from "./student.js";
+import { facul } from "./faculties.js";
+import { event, events } from "./event.js";
+console.log("Student Profile------------");
+console.log(profile.name);
+console.log(profile.email);
+console.log(profile.dob);
+console.log("Faculty Name---------------");
+facul();
+console.log("Events---------------------");
+events();
